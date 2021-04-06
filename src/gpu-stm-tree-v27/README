@@ -1,0 +1,5 @@
+version 27
+
+基于版本26 (26基于14, 即没使用Prefix sum))，对search_kernel,针对tg_size=1进行优化,去除共享内存的使用
+merge优化.
+

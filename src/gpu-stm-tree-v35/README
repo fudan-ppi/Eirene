@@ -1,0 +1,10 @@
+version 35
+基于31 (prefixsum,  ntg=1 merge优化 + buffer in warp )
+
+insert 使用类似TM的方法，当获取锁失败时，回退到第一次找到的leaf node. 在寻找target leaf node 时不加锁
+
+
+
+
+step threshold.
+step evaluations.

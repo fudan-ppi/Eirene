@@ -1,0 +1,20 @@
+version 38
+基于对27的回退.
+删掉了激进算法和分kernel相关.
+
+本版本作为 sort+merge的备选 （另2个备选是version33,34，分别基于4.0,5.0，相比这个版本insert实现了Ntg,导致过于冗余）
+
+
+这个版本也可以认为是version 34删掉关于insert ntg的部分.
+
+
+
+########应使用这个版本作为sort+merge的最终版本
+
+
+
+version 27
+
+基于版本26 (26基于14, 即没使用Prefix sum))，对search_kernel,针对tg_size=1进行优化,去除共享内存的使用
+merge优化.
+

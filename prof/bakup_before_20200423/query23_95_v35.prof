@@ -1,0 +1,4 @@
+==11870== NVPROF is profiling process 11870, command: ../stm_test -v35 -i ../dataset/input_data_23.txt -i ../dataset/23_random/query_95_50M.txt
+==11870== Profiling application: ../stm_test -v35 -i ../dataset/input_data_23.txt -i ../dataset/23_random/query_95_50M.txt
+==11870== Profiling result:
+No events/metrics were profiled.

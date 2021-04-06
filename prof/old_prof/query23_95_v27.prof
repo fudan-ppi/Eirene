@@ -1,0 +1,4 @@
+==8990== NVPROF is profiling process 8990, command: ../stm_test -v27 -i ../dataset/input_data_23.txt -i ../dataset/23_random/query_95_50M.txt
+==8990== Profiling application: ../stm_test -v27 -i ../dataset/input_data_23.txt -i ../dataset/23_random/query_95_50M.txt
+==8990== Profiling result:
+No events/metrics were profiled.
