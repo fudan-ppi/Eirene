@@ -131,7 +131,7 @@ TX_START1:
         //last系列的不需要。如果node是满的会直接返回false.
         offset_t local_root1 = *(g_tree.g_root);
         wrtset_s.size = 0;
-#define THRESHOLD1 100
+#define THRESHOLD1 1
         int timesss = 0;
         while (timesss < THRESHOLD1) {
             timesss++;
@@ -394,7 +394,7 @@ void GPU_STM_Tree::launchKernel(int size, bool special, Time_Measure &t) {
     int grid_dim2 = (h_device_working_num2 - h_boundary * WARPSIZE + (Block_Dim_Get-1)) / Block_Dim_Get;
     
    
-    cout<<"true working:\t"<<h_device_working_num2<<endl;
+    //cout<<"true working:\t"<<h_device_working_num2<<endl;
     //cout<<"grid_dim1: "<<grid_dim1<<endl;
     //cout<<"grid_dim2: "<<grid_dim2<<endl;
     //cout<<"working size:      "<<h_device_working_num2<<endl;

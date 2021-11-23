@@ -23,7 +23,7 @@ namespace gpu_stm_nsp_27{
     const int MAX_NODE_NUM = 10000000;
     
     const int SM = 80;
-    const int Block_Per_SM = 512*5;
+    const int Block_Per_SM = 512;
     const int Block_Dim_Put = WARPSIZE * 2;    //32*16=512
     const int Block_Dim_Get = WARPSIZE * 2;  //32*16=512
     const int Grid_Dim = Block_Per_SM * SM;     //计划中如果全是get的话的grid_dim。实际的grid_dim要后面再算
